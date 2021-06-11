@@ -1,3 +1,14 @@
 body{
     background-color: rgb(72, 255, 0);
 }
+
+$alpha:red;
+$teta:blue;
+p{
+    color: $alpha;
+}
+
+button{
+    background-color: $teta;
+    color: white;
+}
