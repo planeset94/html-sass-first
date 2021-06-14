@@ -1,14 +1,24 @@
+// Variabili 
+$alpha:red;
+$teta:blue;
+
+
 body{
     background-color: rgb(72, 255, 0);
 }
-
-$alpha:red;
-$teta:blue;
-p{
-    color: $alpha;
+.container{
+    p{
+        color: $alpha;
+    }
+    
+    button{
+        background-color: $teta;
+        color: white;
+    }
+    
 }
 
-button{
-    background-color: $teta;
-    color: white;
+
+p{
+    color: $teta;
 }

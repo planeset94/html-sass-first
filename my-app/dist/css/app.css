@@ -2,11 +2,14 @@ body {
   background-color: #48ff00;
 }
 
-p {
+.container p {
   color: red;
 }
-
-button {
+.container button {
   background-color: blue;
   color: white;
+}
+
+p {
+  color: blue;
 }
